@@ -33,9 +33,14 @@ What were the technical and non-technical challenges and how did you overcome th
 
 ### Problem Formulation
 
-My decision making framework for method selection can be divided into two aspects. Firstly, an intuition based methodology derived from domain knowledge and past experience. Secondly, a purely analytical methodology utilising standard academic methods of literature review and research. For the intuitive approach I relied on knowledge developed from previous coursework (eg., Natural Language Processing; Deep Learning; etc) and personal interest (eg., databases; RAG/LLM systems; etc). This intuition enabled me to recognise important aspects of the project requirements; the relevant/appropriate approaches; and the direction of focus for further investigation via the second approach - traditional research.
+My decision making framework for method selection can be divided into two aspects. Firstly, an intuition based methodology derived from domain knowledge and past experience. Secondly, a purely analytical methodology utilising standard academic methods of literature review and research. For the intuitive approach I relied on knowledge developed from previous coursework (eg., Natural Language Processing; Deep Learning; etc) and personal interest (eg., databases; RAG/LLM systems; etc). This intuition enabled me to recognise important aspects of the project requirements; the relevant/appropriate approaches; and the direction of focus for further investigation via the second approach - traditional research. The result of this process was to recognize that the problem, automated data extraction, was to be solved with a dynamic RAG system and that the system would need to address the following requirements:
 
+- Unstructured data inputs (i.e., scanned PDF documents).
+- Strictly local execution (eg., no outside network access, no external API calls).
 
+For explicit details, refer to the ? section of [project overview](LINK).
+
+### Problem Solving
 
 
 
