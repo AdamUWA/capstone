@@ -1,8 +1,7 @@
 
 # MDS Capstone Course Report
 
-### _Adam Holt_  
-#### 21689348
+### _Adam Holt  21689348_
 
 
 # Introduction
@@ -38,12 +37,11 @@ My decision making framework for method selection can be divided into two aspect
 - Unstructured data inputs (i.e., scanned PDF documents).
 - Strictly local execution (eg., no outside network access, no external API calls).
 
-For explicit details, refer to the ? section of [project overview](LINK).
+For further details, refer to the ___ section of the [project overview](LINK).
 
 ### Problem Solving
 
-The main design choice to use a RAG system was influenced by several factors. Firstly, the system would need to be able to handle dynamic requests. In other words, a rules based system for information extraction would be inappropriate as it would require determining/enumerating all possible peices of information that may be requested. For example, regular expression matching is optimal for deterministic, and precise pattern matching in structured text whereas RAG is superior for tasks involving contextual reasoning and information retrieval from unstructured datasets. Furthermore, regex techniques are often brittle and present difficulties in implementation (REF)
-
+The main design choice to use a RAG system was influenced by several factors. Firstly, the system would need to be able to handle dynamic requests. In other words, a rules based system for information extraction would be inappropriate as it would require determining/enumerating all possible peices of information that may be requested. For example, regular expression matching is optimal for deterministic and precise pattern matching in structured text (REF). RAG on the other hand is superior for tasks involving contextual reasoning and can enhance generative AI with dynamic knowledge retrieval from unstructured data (REF). Furthermore, regex techniques are often brittle and present difficulties in implementation (REF).
 
 
 
@@ -58,7 +56,9 @@ The main design choice to use a RAG system was influenced by several factors. Fi
 
 - [Regexes are Hard: Decision-making, Difficulties, and Risks in Programming Regular Expressions](https://arxiv.org/abs/2303.02555)
 
+- [A Systematic Review of Key Retrieval-Augmented Generation (RAG) Systems: Progress, Gaps, and Future Directions](https://arxiv.org/abs/2507.18910)
 
+- [Engineering RAG Systems for Real-World Applications: Design, Development, and Evaluation](https://arxiv.org/abs/2506.20869v1)
 
 
 
