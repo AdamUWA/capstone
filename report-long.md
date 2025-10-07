@@ -33,7 +33,7 @@ What were the technical and non-technical challenges and how did you overcome th
 
 ### Problem Formulation
 
-My decision making framework for method selection can be divided into two aspects. Firstly, an intuition based methodology derived from domain knowledge and past experience. Secondly, a purely analytical methodology utilising standard academic methods of literature review and research. For the intuitive approach I relied on knowledge developed from previous coursework (eg., Natural Language Processing; Deep Learning; etc) and personal interest (eg., databases; RAG/LLM systems; etc). This intuition enabled me to recognise important aspects of the project requirements; the relevant/appropriate approaches; and the direction of focus for further investigation via the second approach - traditional research. The result of this process was to recognize that the problem, automated data extraction, was to be solved with a dynamic RAG system and that the system would need to address the following requirements:
+My decision making framework for method selection can be divided into two aspects. Firstly, an intuition based methodology derived from domain knowledge and past experience. Secondly, a purely analytical methodology utilising standard academic methods of literature review and research. For the intuitive approach I relied on knowledge developed from previous coursework (eg., Natural Language Processing; Deep Learning; etc) and personal interest (eg., databases; RAG/LLM systems; etc). This intuition enabled me to recognise important aspects of the project requirements; the relevant/appropriate approaches; and the direction of focus for further investigation via the second approach - traditional research. The result of this process was to recognize that the problem, automated data extraction, was to be solved with a dynamic Retrieval Augmented Generation (RAG) system and that the system would need to address the following requirements:
 
 - Unstructured data inputs (i.e., scanned PDF documents).
 - Strictly local execution (eg., no outside network access, no external API calls).
@@ -42,11 +42,7 @@ For explicit details, refer to the ? section of [project overview](LINK).
 
 ### Problem Solving
 
-
-
-
-
-
+The main design choice to use a RAG system was influenced by several factors. Firstly, the system would need to be able to handle dynamic requests. In other words, a rules based system for information extraction would be inappropriate as it would require determining/enumerating all possible peices of information that may be requested. For example, regular expression matching is optimal for deterministic, and precise pattern matching in structured text whereas RAG is superior for tasks involving contextual reasoning and information retrieval from unstructured datasets. Furthermore, regex techniques are often brittle and present difficulties in implementation (REF)
 
 
 
@@ -56,10 +52,11 @@ For explicit details, refer to the ? section of [project overview](LINK).
 
 ## NB
 
-- Cannot use a rules based system for info. extraction. Why? Would require determining/enumerating all possible ... Leads to dynamic system (RAG).
+## References
 
+- [A Case Study on Pros and Cons of Regular Expression Detection and Dependency Parsing for Negation Extraction from German Medical Documents. Technical Report](https://arxiv.org/abs/2105.09702)
 
-
+- [Regexes are Hard: Decision-making, Difficulties, and Risks in Programming Regular Expressions](https://arxiv.org/abs/2303.02555)
 
 
 
