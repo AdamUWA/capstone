@@ -1,2 +1,3 @@
-# capstone
-Capstone course repo for coroner project.
+# Capstone Course 
+
+Welcome to Adam Holts capstone course repo for the coroner project.
