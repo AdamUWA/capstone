@@ -1,7 +1,8 @@
 
 # MDS Capstone Course Report
 
-### _Adam Holt  21689348_
+### _Adam Holt_  
+#### 21689348
 
 
 # Introduction
@@ -25,16 +26,14 @@ Explanation of your tasks in the project.
 What were the technical and non-technical challenges and how did you overcome them; and what would you do differently, given your new experience and limits on time.
 
 
-# Methods (as shown in Github) & Results
 
-## Problem Formulation
+## Tasks
 
-My decision making framework for method selection can be divided into two aspects. Firstly, an intuition based methodology derived from domain knowledge and past experience. Secondly, a purely analytical methodology utilising standard academic methods of literature review and research.
+## Methods & Results
 
-For the intuitive approach I relied on knowledge developed from previous coursework (eg., Natural Language Processing; Deep Learning; etc) and personal interest (eg., databases; RAG/LLM systems; etc). This intuition enabled me to recognise important aspects of the project requirements; the relevant/appropriate approaches; and the direction of focus for further investigation via the second approach (traditional research).
+### Problem Formulation
 
-
-
+My decision making framework for method selection can be divided into two aspects. Firstly, an intuition based methodology derived from domain knowledge and past experience. Secondly, a purely analytical methodology utilising standard academic methods of literature review and research. For the intuitive approach I relied on knowledge developed from previous coursework (eg., Natural Language Processing; Deep Learning; etc) and personal interest (eg., databases; RAG/LLM systems; etc). This intuition enabled me to recognise important aspects of the project requirements; the relevant/appropriate approaches; and the direction of focus for further investigation via the second approach - traditional research.
 
 
 
@@ -48,6 +47,11 @@ For the intuitive approach I relied on knowledge developed from previous coursew
 
 
 
+
+
+## NB
+
+- Cannot use a rules based system for info. extraction. Why? Would require determining/enumerating all possible ... Leads to dynamic system (RAG).
 
 
 
