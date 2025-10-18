@@ -78,10 +78,10 @@ OCR integrated document preprocessing is a well established standard technique f
 | Baby-H-finding.pdf | 50 | 200.99 |
 | Nicholls-Diver-finding.pdf | 172 | 582.72 |
 
-_Table 1. OCR document preprocessing with chunking & serializing; times: seconds; system: Apple M3 (10 core) with GPU accelaration._
+_Table 1. OCR document preprocessing times with chunking & serializing. System: Apple M3 (10 core) with GPU accelaration._
 
 
-The system dependence of the pre-processing times highlights the...
+The system dependence of the pre-processing times highlights the requirement for security which is derived from the sensitive nature of the documents. The need for local execution and on device model hosting meant that the system...
 
 Benefits, limitations...
 
@@ -99,11 +99,15 @@ Benefits, limitations...
 - [Engineering RAG Systems for Real-World Applications: Design, Development, and Evaluation](https://arxiv.org/abs/2506.20869v1)
 
 
+## Appendix
 
+| Model | Parameters (Billion) | Size (GigaBytes) |
+|----|----|----|
+| llama3.2 | 3.2 | 2.0 |
+| phi4-mini | 3.8 | 2.5 |
+| gemma3 | 4.3 | 3.3 |
 
-
-
-
+_Table A.1. On device pre-trained generative LLMs_
 
 
 
