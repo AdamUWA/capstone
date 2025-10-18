@@ -11,13 +11,15 @@ The [coroner project](https://github.com/AdamUWA/coroner) is result of the work 
 
 ## Tasks
 
-My role was team leader...
+My role was team leader. In this capcity I administered all aspects of the project development; acted as the primary client liaison (REF); and my research informed the proposal presented to and accepted by our client (REF). The approach I took was to delineate the requisite **work** as follows:
 
-My research...
+1. Research and review
+2. System design
+3. System implementation
 
-I designed, implemented, and tested the entire application architecture end to end.
+Each component of the **work** laid the groundwork for the next. Focusing specifically on the third component, I designed, implemented, and tested the entire application architecture end to end (see coroner). Writing all of the necessary software modules, managing dependencies, and creating and configuring the virtual environment in which the application is deployed on the local system. During this development I utilised generated code sparingly, preferring to leverage library/API documentation and traditional programming techniques of writing, testing, and debugging in conjuction with intuition lead trial and error.
 
-I utilised generated code sparingly, preferring to leverage library/API documentation and traditional programming techniques of writing, testing, and debugging in conjuction with intuition lead trial and error.
+Finally, I provided instruction and guidance to all team members regarding all aspects of the project not limited strictly to technical matters. 
 
 
 ## Methods & Results
@@ -43,6 +45,8 @@ Based on the formulated problem, the **requirements** therefore depend upon the 
 
 For detailed rational behind the above **techniques** refer to the [TODO] [project overview](LINK) wherein the architecture of the system was heavily inspired by the experience report of Khan and Hasan (REF) whithin which the authors present Figure 1.
 
+<br>
+
 ![Figure 1.](architecture.png)
 
 _Figure 1. RAG system architecture_
@@ -53,6 +57,8 @@ Several factors influenced the main design choice to use a RAG system. Firstly, 
 
 OCR integrated document preprocessing is a well established standard technique for dealing with poor quality text based data. Given that the system was required to handle scanned copies of the original reports as the default input format, OCR was the natural choice (REF Hasan&Khan). The process and implementation specifics were inspired by the Docling project. Additional choices for the system such as pre-chunking and serializing the documents into JSON ojbect file for efficient vector store loading were influenced by Auer et al from their Docling Technical Report (REF). System dependent document preprocessing times are exhibited in Figure 2.
 
+
+<br>
 
 | Document | Pages | Pre-processing Time (sec) |
 |----|----|----|
@@ -70,7 +76,7 @@ _Table 1. OCR document preprocessing times with chunking & serializing. System: 
 The system dependence of the pre-processing times highlights the requirement for security which is derived from the sensitive nature of the documents. The need for local execution and on device model hosting mean that benefits are tempered with limitations in such a design. The benefits being self containment, security, and privacy. The limitations being hardware dependent contstraints on model choice and execution efficiency. The key take-away is that such constraints introduced by project specific requirements introduce trade-offs at multiple levels of any system. Furthermore, blind spots were discovered post implementation. Such as human introduced bias of query choices and the use of general purpose pre-trained models. In hindsight, domain specific alignment with formal legal document sources may provide a superior results, eg., utilising models specifically trained for such purposes.
 
 
-## Ethical, Responsible AI and Broader Social Impact
+### Ethical, Responsible AI and Broader Social Impact
 
 Erroneous results from generative models in many cases do not pose significant risks (eg., generative art). But, in this case errors can be dangerous. The purpose of the system is to analyse coroner's reports which contain the circumstances and potential causes of fatalities. To inform policy making so as to mitigate such fatalities the ouputs of the system must have high fidelity and correctness. For this reason a combined evaluation framework of quantitative and qualitative methods is necessary. Statistical/semantic level metrics (eg., BertScoring REF) in conjuction with human oversight and monitoring can ameliorate, but not eliminate, the risks (REF).
 
@@ -112,6 +118,9 @@ Technical challenges stemmed primarily from the strict security requirements. Sp
 
 ## Appendix
 
+
+#### Pretrained Models
+
 | Model | Type | Parameters (Billion) | Size (GigaByte) |
 |----|----|----|----|
 | llama3.2 | LLM | 3.2 | 2.0 |
@@ -123,6 +132,9 @@ _Table A.1. On device pre-trained generative LLMs and embedding models_
 
 
 <br>
+
+
+#### Serialised Document Objects
 
 ```
 {
