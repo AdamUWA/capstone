@@ -83,10 +83,30 @@ _Table 1. OCR document preprocessing times with chunking & serializing. System: 
 
 The system dependence of the pre-processing times highlights the requirement for security which is derived from the sensitive nature of the documents. The need for local execution and on device model hosting meant that the system...
 
+key takeaways... trade-offs...
+
 Benefits, limitations...
 
 
-## NB
+
+
+
+What topics are missing or you wish you have studied: bias; RAG specific evaluation; domain specific gen. models; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## References
 
@@ -99,15 +119,28 @@ Benefits, limitations...
 - [Engineering RAG Systems for Real-World Applications: Design, Development, and Evaluation](https://arxiv.org/abs/2506.20869v1)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ## Appendix
 
-| Model | Parameters (Billion) | Size (GigaBytes) |
-|----|----|----|
-| llama3.2 | 3.2 | 2.0 |
-| phi4-mini | 3.8 | 2.5 |
-| gemma3 | 4.3 | 3.3 |
+| Model | Type | Parameters (Billion) | Size (GigaByte) |
+|----|----|----|----|
+| llama3.2 | LLM | 3.2 | 2.0 |
+| phi4-mini | LLM | 3.8 | 2.5 |
+| gemma3 | LLM | 4.3 | 3.3 |
+| mxbai-embed-large | embedding | .334 | .669 |
 
-_Table A.1. On device pre-trained generative LLMs_
+_Table A.1. On device pre-trained generative LLMs and embedding models_
 
 
 ```
@@ -128,7 +161,7 @@ _Table A.1. On device pre-trained generative LLMs_
 }
 ```
 
-_Figure A.1. Example of serialised document chunk in JSON object format with document metadata (i.e., page and source)_
+_Figure A.1. Example of serialised document chunk in JSON object format with document metadata (i.e., page and source) taken from Rodier-Finding.pdf._
 
 
 
