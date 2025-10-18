@@ -71,12 +71,12 @@ OCR integrated document preprocessing is a well established standard technique f
 
 | Document | Pages | Pre-processing Time (sec) |
 |----|----|----|
-| Rodier-Finding.pdf | | 31.14 |
-| Blood-results-redacted.pdf | | 26.1 |
-| TAULELEI-Jacob-Finding.pdf | | 156.53 |
-| Forkin-finding-2014.pdf | | 80.02 |
-| Baby-H-finding.pdf | | 200.99 |
-| Nicholls-Diver-finding.pdf | | 582.72 |
+| Rodier-Finding.pdf | 6 | 31.14 |
+| Blood-results-redacted.pdf | 7 | 26.1 |
+| Forkin-finding-2014.pdf | 20 | 80.02 |
+| TAULELEI-Jacob-Finding.pdf | 35 | 156.53 |
+| Baby-H-finding.pdf | 50 | 200.99 |
+| Nicholls-Diver-finding.pdf | 172 | 582.72 |
 
 _Table 1. OCR document preprocessing with chunking & serializing; times: seconds; system: Apple M3 (10 core) with GPU accelaration._
 
