@@ -38,6 +38,12 @@ My decision making framework for method selection can be divided into two approa
 - Dynamic information retrieval requests (i.e., non-static queries).
 - Strictly local hosting and execution (eg., no networked external API calls).
 
+The requirements therefore depend upon the following:
+
+- Data preprocessing pipeline with Optical Character Recognition (OCR) capabilites.
+- RAG with vector database for similarity search based context retrieval.
+- On device generative LLM hosting and non-remote in-memory vector store.
+
 For further details, refer to the ___ section of the [project overview](LINK). The general methodology employed can thus stated as...
 
 ### Problem Solving
