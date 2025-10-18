@@ -41,7 +41,7 @@ For further details, refer to the ___ section of the [project overview](LINK).
 
 ### Problem Solving
 
-The main design choice to use a RAG system was influenced by several factors. Firstly, the system would need to be able to handle dynamic requests. In other words, a rules based system for information extraction would be inappropriate as it would require determining/enumerating all possible peices of information that may be requested. For example, regular expression matching is optimal for deterministic and precise pattern matching in structured text (REF). RAG on the other hand is superior for tasks involving contextual reasoning and can enhance generative AI with dynamic knowledge retrieval from unstructured data (REF). Furthermore, regex techniques are often brittle and present difficulties in implementation (REF).
+Several factors infulenced the main design choice to use a RAG system. Firstly, the system would need to handle _dynamic_ requests. In other words, a rules based system for information extraction would be inappropriate as it would require determining/enumerating all possible peices of information that may be requested. For example, regular expression matching is optimal for deterministic and precise pattern matching in structured text (REF) whereas RAG is superior for tasks involving contextual reasoning and can enhance generative AI with _dynamic_ knowledge retrieval from unstructured data (REF). Furthermore, regex techniques are often brittle and present difficulties in implementation (REF).
 
 
 
