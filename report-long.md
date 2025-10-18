@@ -34,9 +34,9 @@ What were the technical and non-technical challenges and how did you overcome th
 
 My decision making framework for method selection can be divided into two approaches. Firstly, an intuition based methodology derived from domain knowledge and past experience. Secondly, a purely analytical methodology utilising standard academic methods of literature review and research. For the intuitive approach I relied on knowledge developed from previous coursework (eg., Natural Language Processing; Deep Learning; etc) and personal interests such as databases; Large Language Model (LLM); and Retrieval Augmented Generation (RAG) systems. This intuition enabled me to recognise important aspects of the project requirements; the relevant/appropriate methods; and the direction of focus for further investigation via the second approach - traditional research. The result of this process was to recognize that the problem, automated data extraction, was to be solved with a dynamic RAG system and that the system would need to address the following requirements:
 
-- Unstructured data inputs (i.e., scanned PDF documents).
-- Dynamic information retrieval requests (i.e., non-static queries).
-- Strictly local hosting and execution (eg., no networked external API calls).
+- Unstructured data inputs (i.e., poor quality scanned PDF documents).
+- Dynamic information retrieval requests (i.e., non-static user queries).
+- Strictly local hosting and execution (eg., restricted from networked external API calls).
 
 The requirements therefore depend upon the following:
 
@@ -44,7 +44,7 @@ The requirements therefore depend upon the following:
 - RAG with vector database for similarity search based context retrieval.
 - On device generative LLM hosting and non-remote in-memory vector store.
 
-For further details, refer to the ___ section of the [project overview](LINK). The general methodology employed can thus stated as...
+For further details, refer to the ___ section of the [project overview](LINK). The general methodology employed is thus comprised of intuition grounded in predeveloped knowledge; traditional academic research methods; and ad hoc problem identification and formulation.
 
 ### Problem Solving
 
