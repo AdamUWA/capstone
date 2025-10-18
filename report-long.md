@@ -28,6 +28,11 @@ What were the technical and non-technical challenges and how did you overcome th
 
 ## Tasks
 
+My role was team leader...
+
+I utilised generated code sparingly, preferring to leverage library/API documentation and traditional programming techniques of writing, testing, and debugging in conjuction with ituition lead trial and error.
+
+
 ## Methods & Results
 
 ### Problem Formulation
