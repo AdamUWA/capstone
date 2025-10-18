@@ -41,7 +41,7 @@ I utilised generated code sparingly, preferring to leverage library/API document
 
 ### Problem Formulation
 
-My decision making framework for method selection can be divided into two approaches. Firstly, an intuition based methodology derived from domain knowledge and past experience. Secondly, a purely analytical methodology utilising standard academic methods of literature review and research. For the intuitive approach I relied on knowledge developed from previous coursework (eg., Natural Language Processing; Deep Learning; etc) and personal interests such as databases; Large Language Models (LLM); and Retrieval Augmented Generation (RAG) systems. This intuition enabled me to recognise important aspects of the project requirements; the relevant/appropriate methods; and the direction of focus for further investigation via the second approach - traditional research. The result of this process was to recognize that the problem, automated data extraction, was to be solved with a dynamic RAG system and that the system would need to address the following **requirements**:
+My decision making framework for method selection can be divided into two approaches. Firstly, an intuition based methodology derived from domain knowledge and past experience. Secondly, a purely analytical methodology utilising standard academic methods of literature review and research. For the intuitive approach I relied on knowledge developed from previous coursework (eg., Natural Language Processing; Deep Learning; etc) and personal interests such as databases; Large Language Models (LLM); and Retrieval Augmented Generation (RAG) systems. This intuition enabled me to recognise important aspects of the project requirements; the relevant/appropriate methods; and the direction of focus for further investigation via the second approach - traditional research. The result of this process was to recognize that the problem, automated data extraction, would be optimally solved with a dynamic RAG system. And that the system would need to address the following **requirements**:
 
 - Unstructured data inputs (i.e., poor quality scanned PDF documents).
 - Dynamic information retrieval requests (i.e., non-static user queries).
@@ -58,7 +58,9 @@ Based on the formulated problem, the **requirements** therefore depend upon the 
 - RAG with vector database for similarity search based context retrieval in conjuction with pre-trained LLMs for query/context augmentation.
 - On device generative LLM hosting and non-remote in-memory vector store.
 
-For detailed rational behind the above techniques and descriptions of the architecture of the system refer to the [TODO] [project overview](LINK). 
+For detailed rational behind the above **techniques** refer to the [TODO] [project overview](LINK) wherein the architecture of the system was heavily inspired by the experience report of Khan and Hasan (REF) whithin which the authors present figure 1.
+
+![](architecture.png)
 
 Several factors influenced the main design choice to use a RAG system. Firstly, the system would need to handle _dynamic_ requests. Specifically, a _static_ rules based system for information extraction was inappropriate as it would require determining/enumerating all possible peices of information that may be requested. For example, regular expression matching is optimal for deterministic and precise pattern matching in structured text (REF) whereas RAG is superior for tasks involving contextual reasoning and can modulate generative results with _dynamic_ and factually grounded knowledge retrieval from unstructured data (REF). Furthermore, regular expression systems are often brittle and present difficulties in implementation (REF).
 
