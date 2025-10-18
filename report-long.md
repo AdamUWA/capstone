@@ -112,13 +112,17 @@ _Table A.1. On device pre-trained generative LLMs_
 
 ```
 {
-    "page_content": "INTRODUCTION 2
-    In my capacity as the Acting State Coroner, I determined on the basis of 
-    information provided by the WA Police in August 2023 that there was 
-    reasonable cause to suspect that Frank had died and that his death was a 
-    reportable death under the Act. I therefore made a direction to the 
-    Commissioner of Police; pursuant to s 23(1) of the Coroners Act 1996 (WA) 
-    that the suspected death be investigated.", 
+    "page_content": {
+
+        "INTRODUCTION 2
+        In my capacity as the Acting State Coroner, I determined on the basis of 
+        information provided by the WA Police in August 2023 that there was 
+        reasonable cause to suspect that Frank had died and that his death was a 
+        reportable death under the Act. I therefore made a direction to the 
+        Commissioner of Police; pursuant to s 23(1) of the Coroners Act 1996 (WA) 
+        that the suspected death be investigated."
+
+        }, 
     "page_no": 3,
     "source": "data/Rodier-Finding.pdf"
 }
