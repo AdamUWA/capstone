@@ -143,6 +143,8 @@ What topics are missing or you wish you have studied: bias; RAG specific evaluat
 _Table A.1. On device pre-trained generative LLMs and embedding models_
 
 
+<br>
+
 ```
 {
     "page_content": {
