@@ -4,7 +4,7 @@
 ### _Adam Holt  21689348_
 
 
-# Introduction
+## Introduction
 
 The [coroner project](https://github.com/AdamUWA/coroner) is result of the work of myself and my team members through working with Dr. Matt Albrecht [WACRSR](https://www.uwa.edu.au/projects/centre-for-road-safety-research/wacrsr-site-link) to design, implement, and evaluate a data extraction application for use on coroners reports. The purpose of this report is to document my personal contribution to the the project.
 
@@ -83,12 +83,13 @@ Erroneous results from generative models in many cases do not pose significant r
 
 ## Personal Reflection
 
-What were the technical and non-technical challenges and how did you overcome them; and what would you do differently, given your new experience and limits on time.
+What were the technical and non-technical challenges and how did you overcome them?
 
 Technical challenges stemmed primarily from the strict security requirements. Specifically, ...
 
+What would you do differently, given your new experience and limits on time?
 
-
+Unfortunately, the final group report was not satisfactory and did not meet my expectations. Integrity and craftsmanship are absent.I in part bear responsibility for this in that I should have recognised at an earlier stage that this aspect of the project was not being executed with care or a high standard of rigor. Furthermore, the report was not completed at a reasonable time in order for me to oversee the result and make the necessary adjustments. For these reasons, our group report has failed to meet the respectable standard of scholarship required. In summary, as the group leader I should have made the executive decision to take control of the situation at an earlier stage and prevented the outcome from taking this shape.
 
 
 
