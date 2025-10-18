@@ -87,10 +87,11 @@ _Table 1. OCR document preprocessing times with chunking & serializing. System: 
 The system dependence of the pre-processing times highlights the requirement for security which is derived from the sensitive nature of the documents. The need for local execution and on device model hosting mean that benefits are tempered with limitations in such a design. The benefits being self containment, security, and privacy. The limitations being hardware dependent contstraints on model choice and execution efficiency. The key take-away is that such constraints introduced by project specific requirements introduce trade-offs at multiple levels of any system. Furthermore, blind spots were discovered post implementation. Such as human introduced bias of query choices and the use of general purpose pre-trained models. In hindsight, domain specific alignment with formal legal document sources may provide a superior results, eg., utilising models specifically trained for such purposes.
 
 
+## Ethical, Responsible AI and Broader Social Impact
 
+What potential social issues/impact that your models may have if wrong predictions or results are given? How would you mitgate this? Is there a non-data science or non-AI solution to this?
 
-
-
+Erroneous results from generative models in many cases do not pose significant risks (eg., generative art). But, in this case errors can be dangerous. The purpose of the system is to analyse coroner's reports which contain the circumstances and potential causes of fatalities. To inform policy making so as to mitigate such fatalities the ouputs of the system must have high fidelity and correctness. For this reason a combined evaluation framework of quantitative and qualitative methods is necessary. Statistical/semantic level metrics (eg., BertScoring REF) in conjuction with human oversight and monitoring can ameliorate, but not eliminate, the risks (REF).
 
 
 
