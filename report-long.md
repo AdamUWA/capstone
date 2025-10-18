@@ -19,7 +19,7 @@ My role was team leader. In this capcity I administered all aspects of the proje
 
 Each component of the **work** laid the groundwork for the next. Focusing specifically on the third component, I designed, implemented, and tested the entire application architecture end to end (see coroner). Writing all of the necessary software modules, managing dependencies, and creating and configuring the virtual environment in which the application is deployed on the local system. During this development I utilised generated code sparingly, preferring to leverage library/API documentation and traditional programming techniques of writing, testing, and debugging in conjuction with intuition lead trial and error.
 
-Finally, I provided instruction and guidance to all team members regarding all aspects of the project not limited strictly to technical matters. 
+Finally, I provided instruction and guidance to all team members regarding all aspects of the project not limited strictly to technical matters. For example, by making pre-recorded demonstration videos for individuals and the group to demostrate key elements of the system and dependencies; by providing templates from which to begin certain tasks; and by helping team members with thier own specific tasks.
 
 
 ## Methods & Results
