@@ -58,7 +58,7 @@ Based on the formulated problem, the **requirements** therefore depend upon the 
 - RAG with vector database for similarity search based context retrieval in conjuction with pre-trained LLMs for query/context augmentation.
 - On device generative LLM hosting and non-remote in-memory vector store.
 
-For further details, refer to the [TODO] section of the [project overview](LINK). 
+For detailed rational behind the above techniques and descriptions of the architecture of the system refer to the [TODO] [project overview](LINK). 
 
 Several factors influenced the main design choice to use a RAG system. Firstly, the system would need to handle _dynamic_ requests. Specifically, a _static_ rules based system for information extraction was inappropriate as it would require determining/enumerating all possible peices of information that may be requested. For example, regular expression matching is optimal for deterministic and precise pattern matching in structured text (REF) whereas RAG is superior for tasks involving contextual reasoning and can modulate generative results with _dynamic_ and factually grounded knowledge retrieval from unstructured data (REF). Furthermore, regular expression systems are often brittle and present difficulties in implementation (REF).
 
