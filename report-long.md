@@ -84,11 +84,12 @@ _Table 1. OCR document preprocessing times with chunking & serializing. System: 
 
 <br>
 
-The system dependence of the pre-processing times highlights the requirement for security which is derived from the sensitive nature of the documents. The need for local execution and on device model hosting meant that the system...
+The system dependence of the pre-processing times highlights the requirement for security which is derived from the sensitive nature of the documents. The need for local execution and on device model hosting meant that benefits are tempered with limitations in such a design. The benefits being self containment, security, and privacy. The limitations being hardware dependent contstraints on model choice and execution efficiency. The key take-away is that such constraints introduced by domain specific requirements introduce trade-offs at multiple levels of any system.
 
-key takeaways... trade-offs...
 
-Benefits, limitations...
+
+
+
 
 
 
