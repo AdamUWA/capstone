@@ -11,7 +11,7 @@ The [coroner project](https://github.com/AdamUWA/coroner) is result of the work 
 
 ## Tasks
 
-My role was team leader. In this capcity I administered all aspects of the project development; acted as the [primary client liaison](https://github.com/AdamUWA/capstone/blob/main/client-meeting-notes.md); and my research informed the proposal presented to and accepted by our client. The approach I took was to delineate the requisite **work** as follows:
+My role was team leader. In this capacity I administered all aspects of the project development; acted as the [primary client liaison](https://github.com/AdamUWA/capstone/blob/main/client-meeting-notes.md); and my research informed the proposal presented to and accepted by our client. The approach I took was to delineate the requisite **work** as follows:
 
 1. [Research and review](https://github.com/AdamUWA/capstone/blob/main/research-summary.md)
 2. [System design](https://github.com/AdamUWA/capstone/blob/main/system-design-overview.md)
@@ -55,7 +55,7 @@ _Figure 1. RAG system architecture._
 
 Several factors influenced the main design choice to use a RAG system. Firstly, the system would need to handle _dynamic_ requests. Specifically, a _static_ rules based system for information extraction was inappropriate as it would require determining/enumerating all possible peices of information that may be requested. For example, regular expression matching excels for deterministic and precise pattern matching in structured text documents [2] whereas RAG is superior for tasks involving contextual reasoning and can modulate generative results with _dynamic_ and factually grounded knowledge retrieval from unstructured data [4, 5, 6]. Furthermore, regular expression systems are often brittle and present difficulties in implementation [3].
 
-OCR integrated document preprocessing is a well established standard technique for dealing with poor quality text based data. Given that the system was required to handle scanned copies of the original reports as the default input format, OCR was the natural choice [7]. The process and implementation specifics were inspired by the [Docling project](https://www.docling.ai/). Additional choices for the system such as pre-chunking and serializing the documents into JSON ojbect file (see Figure A.1 of the Appendix) for efficient vector store loading were influenced by Auer et al from their [Docling Technical Report](https://arxiv.org/abs/2408.09869) [7]. System dependent document preprocessing times with OCR are exhibited in Table 1.
+OCR integrated document preprocessing is a well established standard technique for dealing with poor quality text based data. Given that the system was required to handle scanned copies of the original reports as the default input format, OCR was the natural choice [7]. The process and implementation specifics were inspired by the [Docling project](https://www.docling.ai/). Additional choices for the system such as pre-chunking and serializing the documents into JSON ojbect files (see Figure A.1 of the Appendix) for efficient vector store loading were influenced by Auer et al from their [Docling Technical Report](https://arxiv.org/abs/2408.09869) [7]. System dependent document preprocessing times with OCR are exhibited in Table 1.
 
 
 <br>
