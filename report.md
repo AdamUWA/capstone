@@ -43,7 +43,7 @@ Based on the formulated problem, the **requirements** therefore depend upon the 
 - RAG with vector database for similarity search based context retrieval in conjuction with pre-trained LLMs for query/context augmentation.
 - On device generative LLM hosting and non-remote in-memory vector store (see Table A.1 of the Appendix).
 
-For detailed rational behind the above **techniques** (and implementation specifics) refer to the [system design overview](./system-design-overview.md) wherein the architecture of the system was heavily inspired by the experience report of [Khan et al](https://arxiv.org/abs/2410.15944) [1] whithin which the authors present Figure 1.
+For detailed rationale behind the above **techniques** (and implementation specifics) refer to the [system design overview](./system-design-overview.md) wherein the architecture of the system was heavily inspired by the experience report of [Khan et al](https://arxiv.org/abs/2410.15944) [1] whithin which the authors present Figure 1.
 
 <br>
 
