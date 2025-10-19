@@ -9,4 +9,5 @@ Here you'll find:
 - My `system-design-overview` which details the design of the project.
 - My `presentation` which I delivered for both the group and individually.
 - My `client-meeting-notes` which detail my meetings with the project client.
+- My `individual-plan-reflection` which detail my plan for the project and an audit of my skills.
 
