@@ -11,7 +11,7 @@ The [coroner project](https://github.com/AdamUWA/coroner) is result of the work 
 
 ## Tasks
 
-My role was team leader. In this capcity I administered all aspects of the project development; acted as the [primary client liaison](./client-meeting-notes.md); and [my research](./research-summary.md) informed the proposal presented to and accepted by our client. The approach I took was to delineate the requisite **work** as follows:
+My role was team leader. In this capcity I administered all aspects of the project development; acted as the [primary client liaison](./client-meeting-notes.md); and my research informed the proposal presented to and accepted by our client. The approach I took was to delineate the requisite **work** as follows:
 
 1. [Research and review](./research-summary.md)
 2. [System design](./system-design-overview.md)
