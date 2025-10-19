@@ -1,12 +1,14 @@
 
 # MDS Capstone Course Report
 
+##  Automated Data Extraction from Coroner's Reports
+
 ### _Adam Holt  21689348_
 
 
 ## Introduction
 
-The [coroner project](https://github.com/AdamUWA/coroner) is result of the work of myself and my team members through working with Dr. Matt Albrecht [WACRSR](https://www.uwa.edu.au/projects/centre-for-road-safety-research/wacrsr-site-link) to design, implement, and evaluate a data extraction application for use on coroners reports. The purpose of this report is to document my personal contribution to the the project.
+The [coroner project](https://github.com/AdamUWA/coroner) is result of the work of myself and my team collaborating with Dr. Matt Albrecht to produce a self contained document processing application for the extraction of information related to the conditions and potential causes of road fatalities contained in official coroner's reports for the [The Western Australian Centre for Road Safety Research (WACRSR)](https://www.uwa.edu.au/projects/centre-for-road-safety-research/wacrsr-site-link). The purpose of this report is to document my personal contribution to the the project.
 
 
 ## Tasks
