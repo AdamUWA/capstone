@@ -1,9 +1,7 @@
 
 # MDS Capstone Course Report
 
-##  Automated Data Extraction from Coroner's Reports
-
-### _Adam Holt  21689348_
+#### _Adam Holt  21689348_
 
 
 ## Introduction
