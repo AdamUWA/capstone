@@ -83,32 +83,34 @@ Erroneous results from generative models in many cases do not pose significant r
 
 ## Personal Reflection
 
-With the full scope of technical challenges being too numerous to account, I'll highlight a subset which stemmed primarily from the strict security requirements. Specifically, local model hosting and execution presented difficulties such as, complex and time consuming system configuration; laborious dependency management and administraition of the application environment; system specific technicalities; etc. These challenges were addressed mainly through a combination of trial and error and traditional software testing and debugging. Non-technical challenges arose from team dynamics where coordination, collaboration, and task delegation were central aspects. Whilst these challenges were not strictly _overcome_ they were, in most cases, managed. One exception was encountered during the final days of the project. Unfortunately, the final group report was not satisfactory and did not meet my expectations. Integrity and craftsmanship are absent. I in part bear responsibility for this in that I should have recognised at an earlier stage that this aspect of the project was not being executed with care or a high standard of rigor. Furthermore, the report was not completed at a reasonable time in order for me to oversee the result and make the necessary adjustments. For these reasons, our group report has failed to meet the standard of scholarship required. In summary, as the group leader I should have made the executive decision to take control of the situation at an earlier stage thereby preventing the outcome from taking this shape.
+With the full scope of technical challenges being too numerous to account, I'll highlight a subset which stemmed primarily from the strict security requirements. Specifically, local model hosting and execution presented difficulties such as, complex and time consuming system configuration; laborious dependency management and administraition of the application environment; system specific technicalities; etc. These challenges were addressed mainly through a combination of trial and error and traditional software testing and debugging. 
+
+Non-technical challenges arose from team dynamics where coordination, collaboration, and task delegation were central aspects. Whilst these challenges were not strictly _overcome_ they were, in most cases, managed. One exception was encountered during the final days of the project. Unfortunately, the final group report was not satisfactory and did not meet my expectations. Integrity and craftsmanship appear absent from the report. I in part bare responsibility for this in that I should have recognised at an earlier stage that this aspect of the project was not being executed with care or a high standard of rigor. Furthermore, the report was not completed at a reasonable time in order for me to oversee the result and make the necessary adjustments. For these reasons, our group report has failed to meet the standard of scholarship required. In summary, as the group leader I should have made the executive decision to take control of the situation at an earlier stage thereby preventing the outcome from taking this shape.
 
 
 
 
 ## References
 
-1. [Developing Retrieval Augmented Generation (RAG) based LLM Systems from PDFs: An Experience Report](https://arxiv.org/abs/2410.15944)
+1. A. A. Khan et al. [Developing Retrieval Augmented Generation (RAG) based LLM Systems from PDFs: An Experience Report](https://arxiv.org/abs/2410.15944), 2024.
 
-2. [A Case Study on Pros and Cons of Regular Expression Detection and Dependency Parsing for Negation Extraction from German Medical Documents. Technical Report](https://arxiv.org/abs/2105.09702)
+2. H. Profitlich & D. Sonntag. [A Case Study on Pros and Cons of Regular Expression Detection and Dependency Parsing for Negation Extraction from German Medical Documents. Technical Report](https://arxiv.org/abs/2105.09702), 2021.
 
-3. [Regexes are Hard: Decision-making, Difficulties, and Risks in Programming Regular Expressions](https://arxiv.org/abs/2303.02555)
+3. L. G. Michael IV et al. [Regexes are Hard: Decision-making, Difficulties, and Risks in Programming Regular Expressions](https://arxiv.org/abs/2303.02555), 2023.
 
-4. [A Systematic Review of Key Retrieval-Augmented Generation (RAG) Systems: Progress, Gaps, and Future Directions](https://arxiv.org/abs/2507.18910)
+4. A. J. Oche et al. [A Systematic Review of Key Retrieval-Augmented Generation (RAG) Systems: Progress, Gaps, and Future Directions](https://arxiv.org/abs/2507.18910), 2025
 
-5. [Engineering RAG Systems for Real-World Applications: Design, Development, and Evaluation](https://arxiv.org/abs/2506.20869v1)
+5. Md T. Hasan et al. [Engineering RAG Systems for Real-World Applications: Design, Development, and Evaluation](https://arxiv.org/abs/2506.20869v1), 2025.
 
-6. [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997)
+6. Y. Gao et al. [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997), 2024.
 
-7. [Docling Technical Report](https://arxiv.org/abs/2408.09869)
+7. C. Auer et al. [Docling Technical Report](https://arxiv.org/abs/2408.09869), 2024.
 
-8. [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526)
+8. C. Rathkopf. [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526), 2025.
 
-9. [Generative AI Misuse: A Taxonomy of Tactics and Insights from Real-World Data](https://arxiv.org/abs/2406.13843)
+9. N. Marchal et al. [Generative AI Misuse: A Taxonomy of Tactics and Insights from Real-World Data](https://arxiv.org/abs/2406.13843)
 
-10. [BERTScore: Evaluating Text Generation with BERT](https://arxiv.org/abs/1904.09675)
+10. T. Zhang et al. [BERTScore: Evaluating Text Generation with BERT](https://arxiv.org/abs/1904.09675), 2019.
 
 
 
