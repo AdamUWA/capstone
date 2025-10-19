@@ -6,7 +6,7 @@
 
 ## Introduction
 
-The [coroner project](https://github.com/AdamUWA/coroner) is result of the work of myself and my team collaborating with Dr. Matt Albrecht to produce a self contained document processing application for the extraction of information related to the conditions and potential causes of road fatalities contained in official coroner's reports for the [The Western Australian Centre for Road Safety Research (WACRSR)](https://www.uwa.edu.au/projects/centre-for-road-safety-research/wacrsr-site-link). The purpose of this report is to document my personal contribution to the the project.
+The [coroner project](https://github.com/AdamUWA/coroner) is result of the work of myself and my team collaborating with Dr. Matt Albrecht to produce a self contained document processing application for the extraction of information related to the conditions and potential causes of road fatalities contained in official coroner's reports for the [The Western Australian Centre for Road Safety Research (WACRSR)](https://www.uwa.edu.au/projects/centre-for-road-safety-research/wacrsr-site-link). The purpose of this report is to document my personal contribution to the project.
 
 
 ## Tasks
