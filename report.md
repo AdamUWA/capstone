@@ -11,10 +11,10 @@ The [coroner project](https://github.com/AdamUWA/coroner) is result of the work 
 
 ## Tasks
 
-My role was team leader. In this capcity I administered all aspects of the project development; acted as the [primary client liaison](./client-meeting-notes.md); and my research informed the proposal presented to and accepted by our client. The approach I took was to delineate the requisite **work** as follows:
+My role was team leader. In this capcity I administered all aspects of the project development; acted as the [primary client liaison](https://github.com/AdamUWA/capstone/blob/main/client-meeting-notes.md); and my research informed the proposal presented to and accepted by our client. The approach I took was to delineate the requisite **work** as follows:
 
-1. [Research and review](./research-summary.md)
-2. [System design](./system-design-overview.md)
+1. [Research and review](https://github.com/AdamUWA/capstone/blob/main/research-summary.md)
+2. [System design](https://github.com/AdamUWA/capstone/blob/main/system-design-overview.md)
 3. [System implementation](https://github.com/AdamUWA/coroner)
 
 Each component of the **work** laid the groundwork for the next. Focusing specifically on the third component, I designed, implemented, and tested the entire application architecture end to end ([see commit log](https://github.com/AdamUWA/coroner/commits/main?author=AdamUWA)). Writing **all** of the necessary software modules, managing dependencies, and creating and configuring the virtual environment in which the application is deployed on the local system. During this development I utilised generated code sparingly, preferring to leverage library/API documentation and traditional programming techniques of writing, testing, and debugging in conjuction with intuition lead trial and error.
@@ -43,7 +43,7 @@ Based on the formulated problem, the **requirements** therefore depend upon the 
 - RAG with vector database for similarity search based context retrieval in conjuction with pre-trained LLMs for query/context augmentation.
 - On device generative LLM hosting and non-remote in-memory vector store (see Table A.1 of the Appendix).
 
-For detailed rationale behind the above **techniques** (and implementation specifics) refer to the [system design overview](./system-design-overview.md) wherein the architecture of the system was heavily inspired by the experience report of [Khan et al](https://arxiv.org/abs/2410.15944) [1] whithin which the authors present Figure 1.
+For detailed rationale behind the above **techniques** (and implementation specifics) refer to the [system design overview](https://github.com/AdamUWA/capstone/blob/main/system-design-overview.md) wherein the architecture of the system was heavily inspired by the experience report of [Khan et al](https://arxiv.org/abs/2410.15944) [1] whithin which the authors present Figure 1.
 
 <br>
 
