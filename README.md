@@ -2,5 +2,11 @@
 
 Welcome to **Adam Holts** data science capstone course repo for the [coroner project](https://github.com/AdamUWA/coroner).
 
-TODO: Add presentation
+Here you'll find my:
+
+- `report` which outlines the project and details my contribution to it
+- `research-summary` which informed the proposed design for project
+- `system-design-overview` which details the design of the project
+- `presentation` which I delivered for both the group and individually
+- `client-meeting-notes` which detail my meetings with the project client
 
