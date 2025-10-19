@@ -108,7 +108,7 @@ Non-technical challenges arose from team dynamics where coordination, collaborat
 
 8. C. Rathkopf. [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526), 2025.
 
-9. N. Marchal et al. [Generative AI Misuse: A Taxonomy of Tactics and Insights from Real-World Data](https://arxiv.org/abs/2406.13843)
+9. N. Marchal et al. [Generative AI Misuse: A Taxonomy of Tactics and Insights from Real-World Data](https://arxiv.org/abs/2406.13843), 2024.
 
 10. T. Zhang et al. [BERTScore: Evaluating Text Generation with BERT](https://arxiv.org/abs/1904.09675), 2019.
 
